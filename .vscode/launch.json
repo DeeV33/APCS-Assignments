@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch StringExplorer",
+            "request": "launch",
+            "mainClass": "StringExplorer",
+            "projectName": "APCS-Assignments_9e21d10a"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",

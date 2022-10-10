@@ -47,15 +47,7 @@ public class Magpie2 {
 					|| statement.indexOf("pet") >= 0) {
 				response = "Tell me more about your pets.";
 			} else if (statement.indexOf("Beeler") >= 0
-					|| statement.indexOf("beeler") >= 0
-					|| statement.indexOf("Mr.beeler") >= 0
-					|| statement.indexOf("mr.beeler") >= 0
-					|| statement.indexOf("mr.Beeler") >= 0
-					|| statement.indexOf("Mr.Beeler") >= 0
-					|| statement.indexOf("Mr. beeler") >= 0
-					|| statement.indexOf("mr. beeler") >= 0
-					|| statement.indexOf("mr. Beeler") >= 0
-					|| statement.indexOf("Mr. Beeler") >= 0) {
+					|| statement.indexOf("beeler") >= 0) {
 				response = "Mr. Beeler sounds like a very good teacher.";
 			} else if (statement.indexOf("thirst") >= 0
 					|| statement.indexOf("Thirst") >= 0) {
@@ -64,12 +56,11 @@ public class Magpie2 {
 				response = "Like this program's (not) sponsor? Raid: Shadow Legends?";
 			} else if (statement.indexOf("Honey") >= 0) {
 				response = "Save money with the browser extension, Honey!";
-			} else if (statementTrim == "") {
-				response = "You wrote nothing?";
+			} else if (statementTrim.isEmpty()) {
+				response = "Say something, please.";
 			} else {
 				response = getRandomResponse();
 			}
-
 			return response;
 		}
 	}

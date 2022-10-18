@@ -7,8 +7,8 @@
  * </li>
  * </ul>
  * 
- * @author Laurie White
- * @version April 2012
+ * @author Alejandro Becerra
+ * @version Magpie Activity 3
  */
 public class Magpie3 {
 	/**

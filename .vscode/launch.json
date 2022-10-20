@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MagpieRunner4",
+            "request": "launch",
+            "mainClass": "MagpieRunner4",
+            "projectName": "APCS-Assignments_9e21d10a"
+        },
+        {
+            "type": "java",
             "name": "Launch MagpieRunner3",
             "request": "launch",
             "mainClass": "MagpieRunner3",

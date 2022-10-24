@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "APCS-Assignments_25c08f92"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExplorer",
+            "request": "launch",
+            "mainClass": "StringExplorer",
+            "projectName": "APCS-Assignments_25c08f92"
+        },
+        {
+            "type": "java",
             "name": "Launch MagpieRunner4",
             "request": "launch",
             "mainClass": "MagpieRunner4",

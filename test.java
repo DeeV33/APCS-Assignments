@@ -16,9 +16,14 @@ public class test {
          * " times.");
          */
         String str = "Sussus Amogus";
+        String everyOther = "";
 
-        for (int i = str.length() - 1; i <= 0; i--) {
-
+        for (int i = 0; i < str.length(); i += 2) {
+            if ((i) <= str.length()) {
+                everyOther = everyOther + str.charAt(i);
+            }
         }
+
+        System.out.println("Every other character of " + str + " is: " + everyOther);
     }
 }

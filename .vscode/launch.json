@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DiceRoller",
+            "request": "launch",
+            "mainClass": "DiceRoll.DiceRoller",
+            "projectName": "APCS-Assignments_9e21d10a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiceRoll",
+            "request": "launch",
+            "mainClass": "BeelerDiceRoll.DiceRoll",
+            "projectName": "APCS-Assignments_9e21d10a"
+        },
+        {
+            "type": "java",
             "name": "Launch test",
             "request": "launch",
             "mainClass": "test",

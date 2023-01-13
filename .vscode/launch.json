@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PairOfDice",
+            "request": "launch",
+            "mainClass": "PairOfDiceRollcopy.PairOfDice",
+            "projectName": "APCS-Assignments_9e21d10a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoxCars",
+            "request": "launch",
+            "mainClass": "PairOfDiceRoll.BoxCars",
+            "projectName": "APCS-Assignments_9e21d10a"
+        },
+        {
+            "type": "java",
             "name": "Launch DiceRoller",
             "request": "launch",
             "mainClass": "DiceRoll.DiceRoller",

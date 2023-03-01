@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "APCS-Assignments_ac7f90d2"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayListFun",
+            "request": "launch",
+            "mainClass": "arrayListFun",
+            "projectName": "APCS-Assignments_add3ac37"
+        },
+        {
+            "type": "java",
             "name": "Launch PairOfDice",
             "request": "launch",
             "mainClass": "PairOfDiceRollcopy.PairOfDice",
